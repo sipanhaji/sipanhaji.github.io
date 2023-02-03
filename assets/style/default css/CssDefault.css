@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 100% ; /* Laptop and desktop 1366px*/
+
+}
+body{
+    height: 100%;
+}
+
+:root{
+    /*-------- Main color Changer --------*/
+    --main-color: 250;
+    /*------- Manuel Colors-----*/
+    /*------- standart colors--------*/
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --silver-color: rgb(94, 94, 94);
+    /*-------Purple Colors-------*/
+    --purple-color-one: #9400D3;
+    --purple-color-two: #8B008B;
+    --purple-color-three: #7B68EE;
+    --purple-color-four: #6A5ACD ;
+    --purple-color-five: #483D8B;
+    --purple-color-six: #4B0082;
+    /*--------- red Colors ------*/
+    --Red-color-one:#FFA07A;
+    --Red-color-two:#FA8072;
+    --Red-color-three:#F08080;
+    --Red-color-four: #CD5C5C;
+    --Red-color-five: #DC143C;
+    --Red-color-six: #FF0000;
+    --Red-color-seven: #B22222;
+    --Red-color-eight: #8B0000;
+    /*--------Green Colors --------*/
+    --green-color-one:#00FA9A;
+    --green-color-two:#3CB371;
+    --green-color-three:#2E8B57;
+    --green-color-four:#008000;
+    --green-color-five:#006400;
+    --green-color-six: #6B8E23;
+    --green-color-seven:#556B2F;
+    --green-color-eight:#66CDAA;
+    /*--Special green Colors----*/
+    --green-color-spec1:#20B2AA;
+    --green-color-spec2:#008B8B;
+    --green-color-spec3: #008080;
+    /*--------Blue--------*/
+    --blue-color-one:#4682B4;
+    --blue-color-two:#6495ED;
+    --blue-color-three: #1E90FF;
+    --blue-color-four: #4169E1;
+    --blue-color-five: #f4fdff;
+    /*------------yellow */
+    --yellow-color-one:#eeee9d;
+    --yellow-color-two:#e2e263;
+    --yellow-color-three:#ebeb8c;
+    /*----------Body Background Colors----*/
+    --body-bg-color-one:#E6E6FA;
+    --body-bg-color-two: #D8BFD8;
+    --body-bg-color-three: #FF00FF;
+    --body-bg-color-four:#F08080;
+    --body-bg-color-five:#FAFAD2;
+    --body-bg-color-six:#FFEFD5;
+    --body-bg-color-seven: #00FA9A;
+    --body-bg-color-eight: #00FF7F;
+    --body-bg-color-nine:#66CDAA;
+    --body-bg-color-ten: #AFEEEE;
+    --body-bg-color-eleven: #B0E0E6;
+    --body-bg-color-twelve:#87CEEB;
+    /*------- font Families------*/
+    --standart-font-one:poppins, sans-serif;
+    --standart-font-two: roboto, sans-serif;
+
+    /*---------- Font sizes ---------*/
+    --link-fontsize: 1.2rem;
+    --big-fontsize: 2rem;
+    --biggest-fontsize: 2.5rem;
+    --bigger-fontsize:3rem;
+    --h1-fontsize:1.5rem;
+    --h2-fontsize:1.25rem;
+    --h3-fontsize:1.20rem;
+    --small-fontsize: .81rem;
+    --smaller-fontsize: .75rem;
+    --normal-fontsize: .940rem;
+    --normal-fontsize-mobile: 1rem;
+    /*-------- margins --------*/
+    --margin-025: 0.25rem;
+    --margin-05: 0.5rem;
+    --margin-075:0.75rem;
+    --margin-1:1rem;
+    --margin-1-5: 1.5rem;
+    --margin-2: 2rem;
+    --margin-2-5: 2.5rem;
+    --margin-3:3rem;
+    /*--------- z-index-----------*/
+    --menu-z-index: 100 ;
+    --logo-z-index: 101
+
+}
+@media screen and (max-width: 1366px) {
+    html{
+        font-size: 20px;
+    }
+}
